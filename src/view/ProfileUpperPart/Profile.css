@@ -1,0 +1,13 @@
+.upperImage{
+    height: 20px;
+    width: 20px;
+}
+
+.upperImageMain{
+    display: flex;
+    flex-direction: row;
+    width: 146px;
+height: 40px;
+gap: 16px;
+
+}

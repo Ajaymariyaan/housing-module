@@ -1,0 +1,9 @@
+
+.header {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width:100%;
+  /* background-color: #EFF5F2; */
+}

@@ -1,0 +1,348 @@
+/* components/MainPage/Table/Table.css */
+
+.MainTableDegin{
+  background-color:#EFF5F2;
+  border-radius: 5px;
+  padding: 20px;
+  /* width: 1080px; */
+
+}
+.table-container {
+
+  background-color:white;
+  padding: 20px;
+  border-radius: 8px;
+  border:1px solid #DDEBE9;
+  border-top: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.table-container table {
+  width: 100%;
+  /* border-collapse: collapse; */
+}
+.table-container th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+thead{
+  background-color: #DDEBE9;
+  /* border-radius: 25px; */
+  border:none;
+
+}
+
+table{
+  border:1px solid #ddd;
+  /* border-radius: 25px; */
+
+}
+tbody{
+  border-radius: 25px;
+  border:1px solid #ddd;
+  
+
+
+}
+
+
+.aboveTable{
+  display:flex;
+  flex-direction: column;
+  padding-left: 6px;
+  padding-bottom: 6px;
+  background-color:white;
+  border-radius: 5px;
+  /* border-bottom: none; */
+  border-bottom-left-radius:0px ;
+  border-bottom-right-radius: 0px;
+  border:1px solid #DDEBE9;
+  border-bottom: none;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+
+}
+.animalImg{
+  height:40px;
+  width:40px;
+  border-radius: 4px;
+}
+
+
+.paraDownload{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+.serachFiltImg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.selectFilt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  gap:10px
+
+
+}
+
+
+@media screen and (max-width: 350px) {
+.serachFiltImg{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items:start;
+  gap:150px;
+
+}
+  
+
+.selectFilt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  gap:150px
+
+
+}
+
+.paraDownload{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap:500px;
+  
+
+}
+.MainTableDegin{
+  background-color:white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 1000px;
+
+}
+
+
+}
+
+
+@media screen and (max-width: 250px) {
+
+
+  .serachFiltImg{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items:start;
+  gap:80px;
+
+}
+  
+
+.selectFilt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  gap:80px
+
+
+}
+
+.paraDownload{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap:400px;
+  
+
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 226px) {
+
+
+  .serachFiltImg{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items:start;
+  gap:40px;
+
+}
+  
+
+.selectFilt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  gap:40px
+
+
+}
+
+.paraDownload{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap:300px;
+  
+
+}
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 200px) {
+
+
+  .serachFiltImg{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items:start;
+  gap:20px;
+
+}
+  
+
+.selectFilt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  gap:20px
+
+
+}
+
+.paraDownload{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap:150px;
+  
+
+}
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 330px) {
+  .MainTableDegin{
+  background-color:white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 930px;
+
+}
+}
+@media screen and (max-width: 312px) {
+  .MainTableDegin{
+  background-color:white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 900px;
+
+}
+}
+@media screen and (max-width: 300px) {
+  .MainTableDegin{
+  background-color:white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 850px;
+}
+
+.table-container{
+  overflow: auto;  
+}
+
+}
+
+
+
+
+/* img{
+  width:25px;
+  height:25px; 
+} */
+.downloadPara{
+color:rgb(14, 154, 14);
+
+}
+
+.DownImg{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .toggleBtn{
+
+
+  width:50px;
+  height:40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggleImg{
+  height:40px;
+  width:50px;
+} */
+
+.ProfileAndName{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+/* .IconPhoneMessage{
+
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:50px;
+} */

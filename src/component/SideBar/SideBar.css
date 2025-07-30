@@ -1,0 +1,78 @@
+/* components/SideBar/SideBar.css */
+.sidebar {
+  width: 300px;
+  background-color: white;
+  /* padding: 20px; */
+  /* box-shadow: 2px 0 5px rgba(0,0,0,0.1); */
+  height: 650px;
+  /* /* overflow-y: hidden; */
+  /* overflow-x:hidden;  */
+  position: sticky;
+  top: 0;
+  padding-left: 10px;
+
+  
+
+}
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  /* border:1px solid rgb(136, 168, 153); */
+  /* box-shadow: 0 0 0 5px rgba(184, 226, 204, 0.5); */
+
+}
+.sidebar li {
+  padding: 10px 0;
+  cursor: pointer;
+  color: grey;
+}
+
+.sidebarList{
+  height: 950px;
+  display:flex;
+  flex-direction: column;
+  /* column-gap: 50px; */
+  gap:10px;
+  padding: 0px 20px;
+  
+  padding-left: 16px;
+  position: sticky;
+  /* border:1px solid rgb(136, 168, 153);
+  box-shadow: 0 0 0 5px rgba(232, 247, 239, 0.5); */
+
+
+
+  
+
+}
+.AntzSystem{
+  font-size: 30px;
+  color: rgb(14, 108, 88);
+
+}
+.list{
+  border-bottom: 1px soild grey;
+  color:grey;
+}
+
+.logoAntzFont{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  width: 198px;
+height: 40px;
+gap: 12px;
+padding-top: 30px;
+
+
+}
+
+.AntzImg{
+  width:80px;
+  height:36px;
+}

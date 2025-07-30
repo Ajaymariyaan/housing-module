@@ -1,0 +1,42 @@
+
+.headerMain{
+    display: flex;
+    flex-direction: column;
+
+    width: 1132px;
+height: 374px;
+gap: 16px;
+
+opacity: 1;
+
+
+
+}
+
+.headUpper{
+    display:flex;
+    flex-direction: column;
+
+    width: 1132px;
+height: 96px;
+gap: 8px;
+
+opacity: 1;
+background-color: blueviolet;
+
+
+}
+
+.headLower{
+    display:flex;
+flex-direction: column;
+    width: 1132px;
+height: 262px;
+gap: 40px;
+opacity: 1;
+border-radius: 12px;
+padding: 24px;
+background-color: brown;
+
+
+}

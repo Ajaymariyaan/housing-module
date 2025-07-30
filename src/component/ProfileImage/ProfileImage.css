@@ -1,0 +1,9 @@
+/* components/MainPage/Header/UpperPart/ProfileImage.css */
+.profile-img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile-img img {
+  border-radius: 50%;
+}
