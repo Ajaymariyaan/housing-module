@@ -1,12 +1,16 @@
+.EnclosureMAinDesign{
+     background-color:#EFF5F2;
+}
+
 /* components/MainPage/Table/Table.css */
 
-.MainTableDegin{
+/* .EnclosureMAinDesign{
   background-color:#EFF5F2;
   border-radius: 5px;
   padding: 20px;
-  /* width: 1080px; */
+  
 
-}
+} */
 .table-container {
 
   background-color:white;
@@ -146,9 +150,9 @@ tbody{
   
 
 }
-.MainTableDegin{
+.EnclosureMAinDesign{
   background-color:white;
-  border-radius: 5px;
+  
   padding: 20px;
   width: 1000px;
 
@@ -287,27 +291,27 @@ table{
 
 
 @media screen and (max-width: 330px) {
-  .MainTableDegin{
+  .EnclosureMAinDesign{
   background-color:white;
-  border-radius: 5px;
+
   padding: 20px;
   width: 930px;
 
 }
 }
 @media screen and (max-width: 312px) {
-  .MainTableDegin{
+  .EnclosureMAinDesign{
   background-color:white;
-  border-radius: 5px;
+
   padding: 20px;
   width: 900px;
 
 }
 }
 @media screen and (max-width: 300px) {
-  .MainTableDegin{
+  .EnclosureMAinDesign{
   background-color:white;
-  border-radius: 5px;
+ 
   padding: 20px;
   width: 850px;
 }

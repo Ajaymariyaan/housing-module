@@ -21,9 +21,9 @@ const SideBar = () => {
       <div className="logoAntzFont">
         <img style={{width:'40px',height:'40px'}} src="/Icon/AntzLogo.svg" alt="logo" />
         <img style={{width:'80px',height:'36px'}} src="/Icon/antzSystem.png" alt=" antzSystem" />
-        <img style={{width:'22px',height:'22px',paddingLeft:'90px'}} src="/Icon/menuArrow.svg" alt="arrow" />
+        {/* <img style={{width:'22px',height:'22px',paddingLeft:'90px'}} src="/Icon/menuArrow.svg" alt="arrow" /> */}
       </div>
-      <div><Search1/></div>
+      <div style={{width:'220px', overflow:'hidden'}}><Search1 placeholder={"search"}/></div>
     
       <div className="list">HOUSING</div>
       <div><ul>

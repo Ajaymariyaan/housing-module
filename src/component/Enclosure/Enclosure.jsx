@@ -1,108 +1,102 @@
+import React from "react";
+import "./Enclosure.css"
 
+function Enclosure(){
 
-import React, { useState } from 'react';
-import './Table.css';
-import Search1 from '../Search/Search1';
-import Filter from '../Filter/Filter';
-import Select from '../Select/Select';
-import ProfilePic from '../ProfilePic/ProfilePic';
-
-function Table() {
-  const [searchTerm, setSearchTerm] = useState(''); 
-
-  const initialData = [
+      const [searchTerm, setSearchTerm] = useState(''); 
+    const initialEnclosureData = [
+        
     {
       id: 1,
-      SiteName: "Northern Highland Zoological",
-      Species: 542,
-      Animals: 1234,
-      Enclosures: 210,
-      Sections: 24,
-      Cluster: "Rainforest Cluster",
+      SiteName: "Bannerghatta East 12A",
+      Species: 4,
+      Animals: 123,
+      Enclosures: 43,
+      Sections: "Mufasa",
+      Cluster: "Bandipura",
       InCharge: "John Mathew R",
       image: "/Icon/rabbit.png"
     },
     {
       id: 2,
-      SiteName: "Hillcrest Wildlife Center",
-      Species: 542,
-      Animals: 1234,
-      Enclosures: 210,
-      Sections: 24,
-      Cluster: "Rainforest Cluster",
+      SiteName: "Bannerghatta East 12A",
+      Species: 4,
+      Animals: 123,
+      Enclosures: 43,
+      Sections: "Mufasa",
+      Cluster: "Bandipura",
       InCharge: "John Mathew R",
       image: "/Icon/dog.png"
     },
     {
       id: 3,
-      SiteName: "Sunridge Animal Park",
-      Species: 542,
-      Animals: 1234,
-      Enclosures: 210,
-      Sections: 24,
-      Cluster: "Rainforest Cluster",
+      SiteName: "Bannerghatta East 12A",
+      Species: 4,
+      Animals: 123,
+      Enclosures: 43,
+      Sections: "Mufasa",
+      Cluster: "Bandipura",
       InCharge: "John Mathew R",
       image: "/Icon/elephant.png"
     },
     {
       id: 4,
-      SiteName: "Eastern Tropical Fauna Research Facility",
-      Species: 542,
-      Animals: 1234,
-      Enclosures: 210,
-      Sections: 24,
-      Cluster: "Rainforest Cluster",
+      SiteName: "Bannerghatta East 12A",
+      Species: 4,
+      Animals: 123,
+      Enclosures: 43,
+      Sections: "Mufasa",
+      Cluster: "Bandipura",
       InCharge: "John Mathew R",
       image: "/Icon/zebra.png"
     },
     {
       id: 5,
-      SiteName: "Lakeside Biodiversity Preservation Area",
-      Species: 542,
-      Animals: 1234,
-      Enclosures: 210,
-      Sections: 24,
-      Cluster: "Rainforest Cluster",
+      SiteName: "Bannerghatta East 12A",
+      Species: 4,
+      Animals: 123,
+      Enclosures: 43,
+      Sections: "Mufasa",
+      Cluster: "Bandipura",
       InCharge: "John Mathew R",
       image: "/Icon/rabbit.png"
     },
     {
       id: 6,
-      SiteName: "Green Valley Reserve",
-      Species: 542,
-      Animals: 1234,
-      Enclosures: 210,
-      Sections: 24,
-      Cluster: "Rainforest Cluster",
+      SiteName: "Bannerghatta East 12A",
+      Species: 4,
+      Animals: 123,
+      Enclosures: 43,
+      Sections: "Mufasa",
+      Cluster: "Bandipura",
       InCharge: "John Mathew R",
       image: "/Icon/dog.png"
     },
     {
       id: 7,
-      SiteName: "Maple Grove West",
-      Species: 542,
-      Animals: 1234,
-      Enclosures: 210,
-      Sections: 24,
-      Cluster: "Rainforest Cluster",
+      SiteName: "Bannerghatta East 12A",
+      Species: 4,
+      Animals: 123,
+      Enclosures: 43,
+      Sections: "Mufasa",
+      Cluster: "Bandipura",
       InCharge: "John Mathew R",
       image: "/Icon/elephant.png"
     },
     {
       id: 8,
-      SiteName: "Riverview Safari Zone",
-      Species: 542,
-      Animals: 1234,
-      Enclosures: 210,
-      Sections: 24,
-      Cluster: "Rainforest Cluster",
+      SiteName: "Bannerghatta East 12A",
+      Species: 4,
+      Animals: 123,
+      Enclosures: 43,
+      Sections: "Mufasa",
+      Cluster: "Bandipura",
       InCharge: "John Mathew R",
       image: "/Icon/zebra.png"
     }
   ];
 
-  
-  const filteredData = initialData.filter((item) => {
+  const filteredData = initialEnclosureData.filter((item) => {
     return (
       item.SiteName.toLowerCase().includes(searchTerm.toLowerCase()) ||
       item.Species.toString().includes(searchTerm) ||
@@ -115,11 +109,13 @@ function Table() {
     setSearchTerm(e.target.value);
   };
 
-  return (
-    <div className="MainTableDegin">
-      <div className="aboveTable">
+
+
+    return(<>
+<div className="EnclosureMainDesign">
+     <div className="aboveTable">
         <div className="paraDownload">
-          <h3 style={{ color: '#44544A', fontWeight: '600' }}>All Sites (44)</h3>
+          <h3 style={{ color: '#44544A', fontWeight: '600' }}>All Enclosures (359)</h3>
           <div className="DownImg">
             <p className="downloadPara">Download </p>
             <img src="/Icon/greenDownload.png" alt="" />
@@ -147,14 +143,14 @@ function Table() {
           <thead>
             <tr>
               <th>No</th>
-              <th>Site Name</th>
-              <th>Species</th>
-              <th>Animals</th>
-              <th>Enclosures</th>
-              <th>Sections</th>
-              <th>Cluster</th>
-              <th>In-Charge</th>
-              <th rowSpan={1} style={{ alignItems: 'center' }}>Action</th>
+              <th>ENCLOSURE Name</th>
+              <th>SPECIES</th>
+              <th>ANIMALS</th>
+              <th>SUB ENCLOSURES</th>
+              <th>SECTION</th>
+              <th>SITE</th>
+              <th>IN-CHARGE</th>
+              <th rowSpan={1} style={{ alignItems: 'center' }}>ACTION</th>
               <th></th>
             </tr>
           </thead>
@@ -188,9 +184,11 @@ function Table() {
           </tbody>
         </table>
       </div>
-    </div>
-  );
+      </div>
+    </>
+    )
+
+
 }
 
-export default Table;
-
+export default Enclosure;

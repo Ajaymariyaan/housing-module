@@ -29,6 +29,7 @@
 
     /* padding: 6px; */
     padding:0px 4px;
+    cursor: pointer;
 
 
 
@@ -55,3 +56,4 @@ img{
     align-items: center;
     justify-content: center;
 }
+

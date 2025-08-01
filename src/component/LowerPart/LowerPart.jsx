@@ -21,7 +21,7 @@ const LowerPart = () => {
               <p className="textName">Super Admin</p>
               </div>
              <div><img src="/Icon/callEmpty.svg" alt="callIcon" /></div>
-              <div><img src="/Icon/chat.svg" alt="" /></div>
+             <div><img src="/Icon/chat.svg" alt="" /></div>
               </div>
               
             </div>

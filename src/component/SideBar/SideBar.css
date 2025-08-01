@@ -1,18 +1,52 @@
 /* components/SideBar/SideBar.css */
 .sidebar {
-  width: 300px;
+  width: 272px;
   background-color: white;
   /* padding: 20px; */
   /* box-shadow: 2px 0 5px rgba(0,0,0,0.1); */
-  height: 650px;
+  height: 414px;
   /* /* overflow-y: hidden; */
   /* overflow-x:hidden;  */
+  /* position: sticky; */
+  
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 300px) {
+  /* .sidebar {
+  width: 150px;
+  background-color: white;
+ 
+  height: 714px;
   position: sticky;
   top: 0;
   padding-left: 10px;
 
-  
+} */
 
+
+
+.logoAntzFont{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  width: 100px;
+height: 20px;
+gap: 8px;
+padding-top: 30px;
+
+
+}
+
+.AntzImg{
+  width:40px;
+  height:20px;
+}
+
+
+
+  
 }
 .sidebar h2 {
   font-size: 18px;
@@ -32,7 +66,7 @@
 }
 
 .sidebarList{
-  height: 950px;
+  /* height: 950px; */
   display:flex;
   flex-direction: column;
   /* column-gap: 50px; */
@@ -41,6 +75,7 @@
   
   padding-left: 16px;
   position: sticky;
+  z-index: 1000;
   /* border:1px solid rgb(136, 168, 153);
   box-shadow: 0 0 0 5px rgba(232, 247, 239, 0.5); */
 

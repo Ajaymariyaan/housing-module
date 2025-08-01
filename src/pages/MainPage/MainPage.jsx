@@ -39,7 +39,9 @@ import './MainPage.css';
 // import Header from '../Header/Header';
 // import Table from '../../component/Table1/Tablee';
 import Header from '../Header/Header';
-import Table from '../../component/Table1/Table';
+import SiteDetails from '../../component/SiteDetails/SiteDetails';
+// import Table from '../../component/Table1/Table';
+
 
 
 
@@ -49,9 +51,11 @@ import Table from '../../component/Table1/Table';
 const MainPage = () => {
   return (
     <>
-    <div style={{backgroundColor:'#EFF5F2'}} className="main-content">
+    {/* <div style={{backgroundColor:'#EFF5F2'}} className="main-content"> */}
+    <div className="MainPage">
       <Header />
-      <Table />
+      {/* <Table /> */}
+      <SiteDetails/>
     </div>
     </>
   );
